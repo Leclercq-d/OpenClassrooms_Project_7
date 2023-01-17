@@ -1,0 +1,17 @@
+.stars{
+ display:flex;
+ gap:5%
+}
+
+.star{
+  width:2.5vw;
+}
+
+
+
+@media screen and (max-width:768px){
+  .star{
+    width:4.8vw;
+  }
+  
+}

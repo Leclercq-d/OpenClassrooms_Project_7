@@ -1,0 +1,24 @@
+.tags{
+  display:flex;
+  flex-direction: row;
+  gap:10px;
+}
+
+.tag{
+  background-color:#FF6060;
+  border-radius: 10px;
+  color: white;
+  padding: 1% 5%;
+  font-size: 0.98vw;
+}
+
+@media screen and (max-width:992px){
+  .tag{
+    font-size:2vw;
+  }
+}
+ @media screen and (max-width:678px){
+  .tag{
+    font-size:2.75vw;
+  }
+ }

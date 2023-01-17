@@ -1,0 +1,116 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+.slider{
+  display:flex;
+  flex-direction: column;
+  position:relative;
+  justify-content:center;
+  align-items:center;
+}
+
+.bullets{
+  display: flex;
+  position: absolute;
+  bottom: -2vw;
+  .bulletPoint{
+    margin: 0;
+    font-size: 9.5vw;
+    z-index: 1;
+    color:white;
+    cursor: pointer;
+  }
+  .imgCounter{
+    display: flex;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    font-size: 25px;
+    color:white;
+    margin-bottom:35px;
+  }
+}
+
+.carousImg{
+  width: 90vw;
+  height: 28.85vw;
+  border-radius:10px;
+  object-fit: cover;
+}
+
+.carous{
+  width:30px;
+  color:white;
+  margin: 0;
+  font-size: 3.5vw;
+  position: absolute;
+  z-index:1;
+  transform: translate(-51%, -62%);
+  cursor:pointer;
+}
+
+.PrevBtn{
+  top: 50%;
+  left: 5%;
+}
+
+.NextBtn{
+  top: 50%;
+  left: 95%;
+}
+
+.img{
+  opacity:0;
+  transition-duration: 1s ease;
+
+}
+
+.img.active{
+  opacity:1;
+  transition-duration:1s;
+}
+
+
+@media screen and (max-width:992px){
+  .bullets{
+    bottom:-5vw;
+    .bulletPoint{
+      font-size: 9.5vw;
+    }
+    .imgCounter{
+      margin-bottom:50px;
+     }
+  }
+}
+
+@media screen and (max-width:768px){
+  .bullets{
+    .bulletPoint{
+      font-size:10.68vw;
+    }
+    .imgCounter{
+      display:none;
+      bottom: 1vw;
+      left: -5vw;
+      font-size: 5vw;
+      margin-bottom:6vw;
+    }
+  }
+
+  .carous{
+    width:6.45vw;
+ }
+
+ .PrevBtn{
+  left:5%
+ }
+
+ .NextBtn{
+  left:95%;
+ }
+
+.carousImg {
+    height: 63vw;
+  }
+}

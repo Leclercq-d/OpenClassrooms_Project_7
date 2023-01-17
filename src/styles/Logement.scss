@@ -1,0 +1,101 @@
+.logeStyle{  
+  padding: 0 5%;}
+
+.logeDetails1{
+  display:flex;
+  margin-top: 30px;
+
+  justify-content: space-between;
+  color: #FF6060;
+  .leftData{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    gap: 20px;
+    .hostStyle{
+      display:flex;
+      align-items:center;
+      gap:15px;
+      p{
+        font-size: 18px;
+      }
+      img{
+        width: 64px;
+        height: 64px;
+        border-radius: 40px;
+      }
+    }
+  }
+
+}
+.logeDetails2{
+  display: flex;
+  flex-direction: row; 
+  gap:30px; 
+  margin-top:30px;
+  gap: 10%;
+  .logeDesc{
+    font-size:18px;
+    margin:0;
+   }
+   .equipList{
+    list-style: none;
+    margin:0;
+    padding-left:0;
+    font-size:18px;
+  } 
+
+}
+
+@media screen and (max-width:992px) {
+  
+}
+
+@media screen and (max-width:768px) {
+  .logeDetails1{
+    flex-direction: column;
+    h1{
+      font-size: 4.8vw;
+      margin-top:0;
+    }
+    p{
+      font-size:3.75vw;
+    }
+    .logeTags{
+      p{
+        font-size:2.7vw;
+      }
+    }
+    .leftData{
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      .hostStyle{
+        p{
+          font-size: 3.2vw;
+        }
+        img{
+          width: 8.55vw;
+          height: 8.55vw;
+        }
+      }
+    }
+  }
+
+  .logeDetails2{
+    flex-direction: column;
+    gap:30px;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    p{
+      font-size:3.5vw;
+      margin:0;
+    }
+    .logeDesc{
+      font-size:3.2vw
+    }
+    .equipList{
+      font-size:3.2vw;
+    }
+  }
+ }

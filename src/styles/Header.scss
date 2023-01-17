@@ -1,0 +1,38 @@
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+}
+.logo{
+  width:14.5vw;
+}
+.hNav{
+  display: flex;
+  a{
+    padding:10px;
+    text-decoration:none;
+    color:#FF6060;
+    font-style:normal;
+    font-size:1.67vw;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (max-width:992px){
+
+}
+
+@media screen and (max-width:768px){
+  .logo{
+    width: 38.67vw;
+  }
+  .hNav{
+    a{
+      font-size:3.2vw;
+      text-transform: uppercase;
+    }
+  }
+}

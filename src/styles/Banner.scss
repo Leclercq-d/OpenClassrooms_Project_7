@@ -1,0 +1,51 @@
+.Banner{
+  position: relative;
+  text-align: center;
+  color:white;
+  margin-bottom:5%;
+}
+
+.BannerI{
+  width: 86.15vw;
+  height: 223px;
+  object-position: 0% 41%;
+  object-fit: cover;
+  border-radius:10px;
+}
+
+.BannerTxt{
+  margin: 0;
+  font-size: 3.5vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-51%, -50%);
+  width: 100%;
+}
+
+@media screen and (max-width:992px){ 
+  .BannerTxt{
+    transform: translate(-51%, -40%);
+  }
+}
+
+@media screen and (max-width:768px){
+  .BannerI{
+    height:29vw;
+    width:89.35vw;
+  }
+  .BannerTxt{
+    margin: 0;
+    font-size: 6.4vw;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-51%, -60%);
+    width: 70%;
+    text-align: left;
+  }
+  .aboutBanner{
+    height:59.47vw;
+    width: 89.6vw;
+  }
+}
