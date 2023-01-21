@@ -2,7 +2,6 @@ import '../styles/StarSystem.scss'
 import zero from '../assets/0.svg'
 import hundred from '../assets/100.svg'
 
-
 function getStar(value){
   switch(value){
     case 0: return zero;

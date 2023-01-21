@@ -1,4 +1,5 @@
 import Carousel from '../components/Carousel';
+import { Navigate } from "react-router-dom"
 import Tag from '../components/Tag';
 import Accordion from '../components/Accordion';
 import '../styles/Logement.scss';
@@ -9,8 +10,9 @@ function Logement(){
   let newUrlId = new URL (window.location).searchParams.get('id');
   const Logements = require('../data/logements.json');
   const logement = Logements.find(x=>x.id===newUrlId);
+  
   if(logement===undefined){
-    window.location.replace(E404)
+    return (<Navigate to="/E404" />)
   }
 
   const logeDesc = logement.description;

@@ -4,7 +4,6 @@ import Accordion from '../components/Accordion.jsx'
 let AboutData = require('../data/aboutData.json')
 
 function About(){
-  console.log(AboutData)
   return(
     <div className='aboutStyle'> 
      <div className='bannerStyle'>

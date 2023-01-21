@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   padding:5vw;
-  margin-top:5vw;
+  margin-top:10vw;
   p{
     font-size:1.67vw;
     
@@ -18,12 +18,14 @@
 
 .footerLogoStyle{
   width:9.1vw;
-  padding:0 1rem;
+  padding:0;
   margin-bottom: 20px;
 }
 
 @media screen and (max-width:992px){
-
+  .footerLogoStyle{
+    width:15.1vw;
+  }
 }
 
 @media screen and (max-width:768px){
@@ -32,6 +34,7 @@
       font-size:3.3vw;
     }
     padding:15vw;
+    margin-top:30vw;
   }
   .footerLogoStyle{
     width: 32.55vw;

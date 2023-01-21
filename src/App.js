@@ -15,6 +15,6 @@ function App (){
       <Route path='*' element={<><Header/><E404/><Footer/></>}/>
     </Routes>
   )
-}
+};
 
 export default App
