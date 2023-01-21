@@ -29,13 +29,10 @@ function Carousel(){
         ))}
         <div className='bullets'>
             {arrayImg.map((bullet, index)=>(
-              // <p key={index} className='bulletPoint' onClick={()=>goToSlide(index)}>•</p> 
+              // <p key={index} className='bulletPoint' onClick={()=>goToSlide(index)}>•</p> //bulletpoints for Carousel//
             <p key={index} className="imgCounter">{current+1  + '/' + arrayImg.length}</p>
-
             ))}
           </div> 
     </div>
-
- 
 )}
 export default Carousel
