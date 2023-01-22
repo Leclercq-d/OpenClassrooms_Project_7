@@ -6,7 +6,7 @@ let AboutData = require('../data/aboutData.json')
 function About(){
   return(
     <div className='aboutStyle'> 
-     <div className='bannerStyle'>
+     <div className='bannerStyle BannerI AboutBanner'>
       <AboutBanner/>
      </div>
      <div className='aboutAccordion'>

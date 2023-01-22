@@ -1,4 +1,3 @@
-// import BannerImg from '../assets/home_banner.jpg'
 import homeImBanner from '../assets/homeBanner.png'
 import '../styles/Banner.scss'
 
