@@ -1,7 +1,6 @@
 import ThumbEl from './Thumb.jsx';
 import '../styles/Gallery.scss';
 
-
 function Gallery(){
   let Logements = require('../data/logements.json')
  return(

@@ -38,13 +38,18 @@
     }
   }
 }
+
 @media screen and (max-width:992px){
   .accordionStyle{
+    .accordionT{
+      font-size:2.7vw;
+    }
     .accordionC{
-      font-size:2.67vw;
+      font-size:2.5vw;
     }
   }  
 }
+
 @media screen and (max-width:768px){
   .accordionStyle{
     padding:0;

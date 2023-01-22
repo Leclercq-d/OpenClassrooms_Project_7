@@ -2,7 +2,6 @@ import '../styles/E404.scss'
 import E404Img from '../assets/E404.svg'
 import {Link} from 'react-router-dom'
 
-
 function E404(){
   return(
     <div className='errorStyle'>

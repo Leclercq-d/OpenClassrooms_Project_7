@@ -8,9 +8,13 @@
 .BannerI{
   width: 86.15vw;
   height: 223px;
-  object-position: 0% 41%;
+  object-position: 0% 21%;
   object-fit: cover;
   border-radius:10px;
+}
+
+.AboutBanner{
+  object-position: 0% 41%;
 }
 
 .BannerTxt{
@@ -34,6 +38,10 @@
     height:29vw;
     width:89.35vw;
   }
+  .AboutBanner{
+    height: 59.5vw;
+  }
+
   .BannerTxt{
     margin: 0;
     font-size: 6.4vw;
