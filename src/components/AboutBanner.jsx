@@ -3,7 +3,7 @@ import AboutImg from '../assets/aboutBanner.png'
 
 function AboutBanner(){
   return(
-    <img  className=''  src={AboutImg} alt='About banner'/>
+    <img  className='BannerI AboutBanner'  src={AboutImg} alt='About banner'/>
   )
 }
 

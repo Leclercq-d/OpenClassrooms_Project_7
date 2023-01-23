@@ -3,7 +3,6 @@ import '../styles/Accordion.scss';
 import chevronUp from '../assets/chevronUp.svg';
 import chevronDown from '../assets/chevronDown.svg';
 
-
 function Accordion (item, index) {
   const [isActive, setIsActive] = useState(false);
   return (
